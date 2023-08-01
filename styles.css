@@ -1,0 +1,93 @@
+body {
+    background-image: linear-gradient(to top right, #bd0b76, #5C3075);
+    min-height: 100vh;
+    line-height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 900px;
+    margin: 150px auto 0;
+}
+
+.drink-list {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 20px;
+
+}
+
+.drink-card .img img {
+    height: 200px;
+    transition: .5s;
+}
+
+.drink-card .img {
+    background-image: linear-gradient(to top right, #D89CD1, #D499D4);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+.drink-card .content {
+    background-color: #ffffff24;
+    border-radius: 30px;
+    padding: 50px 30px;
+    transform: translate(0,-50px);
+    backdrop-filter: blur(20px);
+    color: #fff;
+}
+
+.title {
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.description {
+    opacity: .7;
+}
+
+.price {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 20px;
+}
+
+.add {
+    background-color: #B192EF;
+    padding: 20px;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.drink-card:hover img {
+    transform: translate(0,-50px);
+}
+
+.list-pages {
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+.list-pages li{
+    background-color: #ffffffBD;
+    padding: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.list-pages .active {
+    background-color: #B192EF;
+    color: #fff;
+}
