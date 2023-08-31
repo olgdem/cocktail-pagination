@@ -1,5 +1,5 @@
 async function getCocktailCards() {
-    const response = await fetch('/drink.json');
+    const response = await fetch('drink.json');
     const content = await response.json();
 
     showCocktailCards(content, 6);
@@ -42,14 +42,12 @@ let thisPage = 1;
 let limit = 6;
 
 async function loadItem () {
-    const response = await fetch('/drink.json');
+    const response = await fetch('drink.json');
     const content = await response.json();
     let list = document.querySelectorAll('.drink-list .drink-card');
-   
      let beginGet = limit * (thisPage - 1);
      let endGet = limit * thisPage - 1;
      list.forEach((item, key) => {
-        
          if(key >= beginGet && key <= endGet) {
              item.style.display = 'block';
          } else {
@@ -57,7 +55,6 @@ async function loadItem () {
          }
      })
      listPage();
-
  }
 
  loadItem();
