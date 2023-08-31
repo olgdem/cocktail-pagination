@@ -1,7 +1,7 @@
 [
     {
       "name": "Martini",
-      "img": "/images/drink1.png",
+      "img": "images/drink1.png",
       "description": "This drink goes the extra mile with a rim dipped in a mixture of black pepper and sugar. Using raspberry puree, oranges, champagne, vodka, simple syrup, and topping with thyme and lemon. ",
       "price": "$20",
       "id": "1"
@@ -9,7 +9,7 @@
     },
     {
       "name": "Cosmopolitan",
-      "img": "/images/drink2.png",
+      "img": "images/drink2.png",
       "description": "This drink goes the extra mile with a rim dipped in a mixture of black pepper and sugar. Using raspberry puree, oranges, champagne, vodka, simple syrup, and topping with thyme and lemon. ",
       "price": "$30",
       "id": "2"
@@ -17,7 +17,7 @@
     },
     {
       "name": "Mai Tai",
-      "img": "/images/drink3.png",
+      "img": "images/drink3.png",
       "description": "This drink goes the extra mile with a rim dipped in a mixture of black pepper and sugar. Using raspberry puree, oranges, champagne, vodka, simple syrup, and topping with thyme and lemon. ",
       "price": "$35",
       "id": "3"
@@ -25,7 +25,7 @@
     },
     {
       "name": "Aviation",
-      "img": "/images/drink4.png",
+      "img": "images/drink4.png",
       "description": "This drink goes the extra mile with a rim dipped in a mixture of black pepper and sugar. Using raspberry puree, oranges, champagne, vodka, simple syrup, and topping with thyme and lemon. ",
       "price": "$37",
       "id": "4"
@@ -33,7 +33,7 @@
     },
     {
       "name": "Mojito",
-      "img": "/images/drink5.png",
+      "img": "images/drink5.png",
       "description": "This drink goes the extra mile with a rim dipped in a mixture of black pepper and sugar. Using raspberry puree, oranges, champagne, vodka, simple syrup, and topping with thyme and lemon. ",
       "price": "$28",
       "id": "5"
@@ -41,7 +41,7 @@
     },
     {
       "name": "Margarita",
-      "img": "/images/drink6.png",
+      "img": "images/drink6.png",
       "description": "This drink goes the extra mile with a rim dipped in a mixture of black pepper and sugar. Using raspberry puree, oranges, champagne, vodka, simple syrup, and topping with thyme and lemon. ",
       "price": "$25",
       "id": "6"
@@ -49,7 +49,7 @@
     },
     {
       "name": "Mimosa",
-      "img": "/images/drink7.png",
+      "img": "images/drink7.png",
       "description": "This drink goes the extra mile with a rim dipped in a mixture of black pepper and sugar. Using raspberry puree, oranges, champagne, vodka, simple syrup, and topping with thyme and lemon. ",
       "price": "$18",
       "id": "7"
@@ -57,7 +57,7 @@
     },
     {
       "name": "Long Island Tea",
-      "img": "/images/drink8.png",
+      "img": "images/drink8.png",
       "description": "This drink goes the extra mile with a rim dipped in a mixture of black pepper and sugar. Using raspberry puree, oranges, champagne, vodka, simple syrup, and topping with thyme and lemon. ",
       "price": "$32",
       "id": "8"
